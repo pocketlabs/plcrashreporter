@@ -5485,6 +5485,7 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DPLCF_MIN_MACOSX_SDK=$(PL_MIN_MACOSX_SDK)",
+					"-DPLCRASH_ASYNC_THREAD_ARM_UNIFIED_SUPPORT=1",
 				);
 				PRODUCT_NAME = CrashReporter;
 				SDKROOT = macosx;
@@ -5513,6 +5514,7 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DPLCF_MIN_MACOSX_SDK=$(PL_MIN_MACOSX_SDK)",
+					"-DPLCRASH_ASYNC_THREAD_ARM_UNIFIED_SUPPORT=1",
 				);
 				PRODUCT_NAME = CrashReporter;
 				SDKROOT = macosx;
